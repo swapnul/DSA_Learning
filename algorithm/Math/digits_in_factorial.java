@@ -1,4 +1,4 @@
-package Math;
+package Math.algorithm;
 
 //https://practice.geeksforgeeks.org/batch/dsa-4/track/DSASP-Mathematics/problem/digits-in-factorial
 
@@ -20,6 +20,6 @@ class Solution{
         return (int)Math.floor(result);
     }
     public static void main(String[] args) {
-        System.out.println(digitsInFactorial(5)); 
+        System.out.println(digitsInFactorial(18)); 
     }
 }
